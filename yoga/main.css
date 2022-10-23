@@ -1,0 +1,92 @@
+/* TODO: close collapsed-nav */
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1140px;
+    }
+}
+
+h1 {
+    color: #DC5F5F;
+}
+
+.navigation {
+    width: 100%;
+    position: relative;
+    min-height: 70px;
+    z-index: 1000;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+.navbar-brand {
+    color: #2299aa;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #DC5F5F;
+    color: #ffffff!important;
+}
+
+.navbar-light, .navbar-nav, .nav-link {
+    color: #333333;
+    font-weight: 600;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+.btn {
+    background-color: #DC5F5F;
+    border: 0px;
+    border-radius: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: #ffffff;
+}
+
+.bg-secondary {
+    --bs-bg-opacity: 1;
+    background-color: #DC5F5F!important;
+}
+
+#home, #courses, #about-me, #moon-yoga {
+    min-height: 100vh;
+}
+
+#home-banner {
+    background-image: url('img/zen-bear-yoga-IVf7hm88zxY-unsplash.jpg');
+    height: 50vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about-me, #contact, .banner {
+    background-color: rgb(222 209 194 / 50%);
+}
+
+.list-group-item.disabled {
+    text-decoration: line-through;
+}
+
+/* https://github.com/twbs/bootstrap/issues/35900 */
+[id=about-me], [id=courses], [id=moon-yoga], [id=contact]  {
+    scroll-margin-top: 4rem;
+}
+
+.box-part{
+    background:#FFF;
+    border-radius:0;
+    padding:60px 10px;
+    margin:10px 10px;
+}
+.text{
+    margin:20px 0px;
+}
+
+.fa{
+     color:#4183D7;
+}
